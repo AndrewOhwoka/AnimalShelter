@@ -74,7 +74,7 @@ class AnimalShelter {
         return dogs.poll();
     }
 
-    // Dequeue the oldest cat
+    // Dequeue the oldest cats
     public Cat dequeueCat() {
         return cats.poll();
     }
